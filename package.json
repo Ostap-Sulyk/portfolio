@@ -7,7 +7,9 @@
   "scripts": {
     "dev": "vite --port 3000 --host",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview --port 3001 --host",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^18.2.0",

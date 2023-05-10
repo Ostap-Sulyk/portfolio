@@ -42,7 +42,7 @@ export default function Home() {
                 web applications
               </h1>
               <button className="btn--text btn--small" id="learn-more-btn">
-                about me &DownArrow;
+                about me &darr;
               </button>
             </div>
             <Image
@@ -124,7 +124,9 @@ export default function Home() {
                 your project and see how I can help 💻.
               </p>
               <button className="btn--text btn--small" id="projects-btn">
-                my projects &DownArrow;
+                my projects
+                <span>-&gt;</span>
+                &DownArrow;
               </button>
             </div>
           </div>
@@ -133,31 +135,76 @@ export default function Home() {
           <div className="swiper-container">
             <div className="swiper-wrapper">
               <div className="swiper-slide">
-                <Image src="images/img-1.jpg" alt="Image 1" />
+                <Image
+                  src="/images/img-1.jpg"
+                  alt="Image 1"
+                  width={1000}
+                  height={1000}
+                />
               </div>
               <div className="swiper-slide">
-                <Image src="images/img-2.jpg" alt="Image 2" />
+                <Image
+                  src="/images/img-2.jpg"
+                  alt="Image 2"
+                  width={1000}
+                  height={1000}
+                />
               </div>
               <div className="swiper-slide">
-                <Image src="images/img-3.jpg" alt="Image 3" />
+                <Image
+                  src="/images/img-3.jpg"
+                  alt="Image 3"
+                  width={1000}
+                  height={1000}
+                />
               </div>
               <div className="swiper-slide">
-                <Image src="images/img-4.jpg" alt="Image 4" />
+                <Image
+                  src="/images/img-4.jpg"
+                  alt="Image 4"
+                  width={1000}
+                  height={1000}
+                />
               </div>
               <div className="swiper-slide">
-                <Image src="images/img-5.jpg" alt="Image 5" />
+                <Image
+                  src="/images/img-5.jpg"
+                  alt="Image 5"
+                  width={1000}
+                  height={1000}
+                />
               </div>
               <div className="swiper-slide">
-                <Image src="images/img-6.jpg" alt="Image 6" />
+                <Image
+                  src="/images/img-6.jpg"
+                  alt="Image 6"
+                  width={1000}
+                  height={1000}
+                />
               </div>
               <div className="swiper-slide">
-                <Image src="images/img-7.jpg" alt="Image 7" />
+                <Image
+                  src="/images/img-7.jpg"
+                  alt="Image 7"
+                  width={1000}
+                  height={1000}
+                />
               </div>
               <div className="swiper-slide">
-                <Image src="images/img-8.jpg" alt="Image 8" />
+                <Image
+                  src="/images/img-8.jpg"
+                  alt="Image 8"
+                  width={1000}
+                  height={1000}
+                />
               </div>
               <div className="swiper-slide">
-                <Image src="images/img-9.jpg" alt="Image 9" />
+                <Image
+                  src="/images/img-9.jpg"
+                  alt="Image 9"
+                  width={1000}
+                  height={1000}
+                />
               </div>
             </div>
             <div className="swiper-button-next"></div>

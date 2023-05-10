@@ -8,17 +8,17 @@ export default function Home() {
       <Head>
         <title>Spring Boot Web Developer</title>
       </Head>
-      <main className={styles.main}>
+      <main>
         <header>
-          <div id="top" class="logo">
+          <div id="top" className="logo">
             <Image src="icon.svg" alt="beans" width={40} height={40} />
           </div>
-          <div class="hamburger">
-            <div class="line"></div>
-            <div class="line"></div>
-            <div class="line"></div>
+          <div className="hamburger">
+            <div className="line"></div>
+            <div className="line"></div>
+            <div className="line"></div>
           </div>
-          <nav class="nav-bar">
+          <nav className="nav-bar">
             <ul>
               <li>
                 <a href="">about me</a>
@@ -32,33 +32,33 @@ export default function Home() {
             </ul>
           </nav>
         </header>
-        <section class="hero-seciton">
-          <div class="hero-container wrapper">
+        <section className="hero-seciton">
+          <div className="hero-container wrapper">
             <div>
               <h1>
                 I build
-                <span class="highlight">secure</span> and
-                <span class="highlight">scalable</span>
+                <span className="highlight">secure</span> and
+                <span className="highlight">scalable</span>
                 web applications
               </h1>
-              <button class="btn--text btn--small" id="learn-more-btn">
+              <button className="btn--text btn--small" id="learn-more-btn">
                 about me &DownArrow;
               </button>
             </div>
             <Image
               src="/avatar.png"
               alt="my photo"
-              class="hero-img"
+              className="hero-img"
               width={600}
               height={600}
             />
           </div>
         </section>
-        <section class="about">
+        <section className="about">
           <div>
             <div>
               <p>
-                👋 Hello, my name is Ostap, and I'm a passionate backend
+                👋 Hello, my name is Ostap, and I&apos;m a passionate backend
                 developer based in Toronto 🇨🇦. I specialize in building
                 scalable, reliable, and secure web applications using
                 <a
@@ -111,57 +111,57 @@ export default function Home() {
               </p>
               <br />
               <p>
-                When I'm not coding, you can find me hiking in the nearby parks
-                🌲 or exploring the city's many cultural events 🎭. I'm also an
-                avid reader 📚, and I love learning about new technologies and
-                programming languages.
+                When I&apos;m not coding, you can find me hiking in the nearby
+                parks 🌲 or exploring the city&apos;s many cultural events 🎭.
+                I&apos;m also an avid reader 📚, and I love learning about new
+                technologies and programming languages.
               </p>
               <br />
               <p>
-                If you're looking for a developer who can help you build a
-                high-quality, secure, and scalable application, please don't
-                hesitate to get in touch. I'd love to hear about your project
-                and see how I can help 💻.
+                If you&apos;re looking for a developer who can help you build a
+                high-quality, secure, and scalable application, please
+                don&apos;t hesitate to get in touch. I&apos;d love to hear about
+                your project and see how I can help 💻.
               </p>
-              <button class="btn--text btn--small" id="projects-btn">
+              <button className="btn--text btn--small" id="projects-btn">
                 my projects &DownArrow;
               </button>
             </div>
           </div>
         </section>
-        <section class="projects-section">
-          <div class="swiper-container">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                <img src="images/img-1.jpg" alt="Image 1" />
+        <section className="projects-section">
+          <div className="swiper-container">
+            <div className="swiper-wrapper">
+              <div className="swiper-slide">
+                <Image src="images/img-1.jpg" alt="Image 1" />
               </div>
-              <div class="swiper-slide">
-                <img src="images/img-2.jpg" alt="Image 2" />
+              <div className="swiper-slide">
+                <Image src="images/img-2.jpg" alt="Image 2" />
               </div>
-              <div class="swiper-slide">
-                <img src="images/img-3.jpg" alt="Image 3" />
+              <div className="swiper-slide">
+                <Image src="images/img-3.jpg" alt="Image 3" />
               </div>
-              <div class="swiper-slide">
-                <img src="images/img-4.jpg" alt="Image 4" />
+              <div className="swiper-slide">
+                <Image src="images/img-4.jpg" alt="Image 4" />
               </div>
-              <div class="swiper-slide">
-                <img src="images/img-5.jpg" alt="Image 5" />
+              <div className="swiper-slide">
+                <Image src="images/img-5.jpg" alt="Image 5" />
               </div>
-              <div class="swiper-slide">
-                <img src="images/img-6.jpg" alt="Image 6" />
+              <div className="swiper-slide">
+                <Image src="images/img-6.jpg" alt="Image 6" />
               </div>
-              <div class="swiper-slide">
-                <img src="images/img-7.jpg" alt="Image 7" />
+              <div className="swiper-slide">
+                <Image src="images/img-7.jpg" alt="Image 7" />
               </div>
-              <div class="swiper-slide">
-                <img src="images/img-8.jpg" alt="Image 8" />
+              <div className="swiper-slide">
+                <Image src="images/img-8.jpg" alt="Image 8" />
               </div>
-              <div class="swiper-slide">
-                <img src="images/img-9.jpg" alt="Image 9" />
+              <div className="swiper-slide">
+                <Image src="images/img-9.jpg" alt="Image 9" />
               </div>
             </div>
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
+            <div className="swiper-button-next"></div>
+            <div className="swiper-button-prev"></div>
           </div>
         </section>
         <section></section>
